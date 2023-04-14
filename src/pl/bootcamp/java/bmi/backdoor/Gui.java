@@ -9,13 +9,13 @@ public class Gui {
         System.out.println("2. Remind BMI");
         System.out.println("3. Exit");
 
-        return scanner.nextLine();
+        return scanner.next();
     }
 
     public String inputNickname(){
         System.out.println("Enter your nickname: ");
 
-        return scanner.nextLine();
+        return scanner.next();
     }
 
     public int inputHeight(){
